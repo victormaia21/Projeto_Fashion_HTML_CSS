@@ -1,0 +1,124 @@
+body{
+    width: 1024px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    margin-top: 40px;
+    background-image: url(/ProjetoFashion_inicio/imagens/topo.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+.cabeçalho{
+    background-color: rgb(20, 58, 80);
+    height: 55px;
+    position: relative;
+}
+.cabeçalho ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5px;
+}
+.cabeçalho ul li{
+    display: inline-block;
+    width: 150px;
+    font-size: 12x;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    word-spacing: 0.5px;
+}
+.cabeçalho ul li a{
+    color: rgb(238, 238, 238,0.2);
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+.cabeçalho ul li a:hover{
+    color: white;
+    background-color: rgba(20, 58, 80,0.1)
+}
+.cabeçalho .logotipo{
+    margin: 10px 0 0 100px;
+}
+.sp{
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+.sp h2{
+    font-size: 32px;
+    text-align: center;
+}
+.sp p{
+    line-height: 2;
+}
+.modelos{
+    margin: 20px 0 0 120px;
+}
+.modelo{
+    display: inline-block;
+    width: 260px;
+    line-height: 0.7;
+}
+.modelos .modelo .modelo-nome{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.modelos .modelo .modelo-descrição{
+    color: rgb(153, 147, 147);
+    text-align: center;
+    font-size: 17px;
+    line-height: 0.1;
+}
+.imag{
+    background-image: url(/ProjetoFashion_inicio/imagens/bg_detalhe.png);
+    padding: 150px;
+    background-position: right bottom;
+    background-color: #003d52;
+    background-repeat: no-repeat;
+    width: 700px;
+    margin: 60px auto;
+    margin: 40px 0 0 0;
+}
+.imag article h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 1.2;
+}
+.imag article p{
+    color: white;
+    width: 500px;
+    line-height: 1.75;
+}
+address{
+    text-align: center;
+    font-size: 30px;
+    color: #003d52;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.map{
+    margin-top: 40px;
+}
+.map iframe{
+    width: 100%;
+}
+footer{
+    margin-top: 50px;
+    background-color: #003d52;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
